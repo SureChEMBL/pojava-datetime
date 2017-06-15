@@ -1,0 +1,11 @@
+.mh/
+debhelper-build-stamp
+files
+libpojava-datetime-java.substvars
+libpojava-datetime-java/
+*.debhelper.log
+maven-repo/
+maven.cleanIgnoreRules
+maven.ignoreRules
+maven.publishedRules
+stamp-poms-patched

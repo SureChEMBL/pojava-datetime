@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+override_dh_auto_install:
+	mh_install --package=libpojava-datetime-java
+
+%:
+	dh $@ --buildsystem=maven

@@ -1,0 +1,21 @@
+Source: pojava-datetime
+Section: java
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ default-jdk (>= 1.6),
+ junit (>= 3.8.2),
+ libmaven-compiler-plugin-java (>= 2.5.1),
+ libmaven-javadoc-plugin-java (>= 2.7),
+ libmaven-source-plugin-java (>= 2.4),
+ libsurefire-java (>= 2.16),
+ maven-debian-helper (>= 1.5),
+Standards-Version: 3.9.7
+
+Package: libpojava-datetime-java
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${maven:Depends},
+Description: Java library to manipulate dates
